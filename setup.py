@@ -4,7 +4,7 @@ setup(
     name='ldm',
     version='0.0.1',
     description='',
-    packages=["ldm"],
+    packages=find_packages(),
     install_requires=[
         'torch',
         'numpy',
